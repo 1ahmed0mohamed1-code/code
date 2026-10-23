@@ -1,5 +1,4 @@
-x = 10
-print(x)
+
 
 Name = "ahmed"
 print(Name) 
