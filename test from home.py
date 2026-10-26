@@ -1,9 +1,10 @@
 def The_calculator():
     a = int(input("a : "))
-    print(a)
+
     b = int(input("b : "))
-    print (b)     
+
     number = a + b 
+    
     print(number)
 
 
@@ -35,3 +36,28 @@ def your():
     Name = input("enter your name :" )
     print(Name)
 your()
+
+def calculator():
+    ax = int(input("ax : "))
+    
+    bx = int(input("bx : "))
+    
+    numbar = ax * bx
+    
+    print(numbar)
+calculator()
+
+def Calculator():
+    aa = int(input("aa : "))
+    
+    bb = int(input("bb : "))
+    
+    number = aa / bb
+    print(number)
+Calculator()
+
+def mm():
+    x = 10
+    z = 20
+    print(x == z)
+mm()
