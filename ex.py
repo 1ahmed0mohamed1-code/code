@@ -1,12 +1,4 @@
-# Number1
-# Number2
-# Result = Number1 + Number2
+a = [1,2,3,4,5,6,7,8,9,10]
 
-# output 
-
-a = int(input("a : "))
+a.append(10)
 print(a)
-b = int(input("b : "))
-print (b)     
-number = a + b 
-print(number)
