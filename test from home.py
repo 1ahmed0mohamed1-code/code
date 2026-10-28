@@ -1,4 +1,4 @@
-def The_calculator():
+def CAlculator():
     a = int(input("a : "))
 
     b = int(input("b : "))
@@ -8,7 +8,7 @@ def The_calculator():
     print(number)
 
 
-The_calculator()
+CAlculator()
 
 
 def Name():
@@ -97,6 +97,12 @@ def list():
     a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
     a.append(10)
     print(a)
+    k = ["aa", 123, 17 , "alzawea alhamra"]
+
+    k.remove("alzawea alhamra")
+    k.append("aa@gmail.com")
+    k[2] = 4
+    print(k)
 
 # update 
     
@@ -112,3 +118,20 @@ def tuple():
     print(tup[3])
 
 tuple()
+
+def ll():
+    s1 = set("set date")
+    print(s1)
+ll()
+
+def dictionary():
+    d = {}
+
+#{key : value}
+
+    D = {1:'aa', 2:'nn',3:'mm' }
+    print(D.get(1))
+    D.keys()
+    print(D)
+    print(D.keys())
+dictionary()
