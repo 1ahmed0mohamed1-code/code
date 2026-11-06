@@ -134,4 +134,74 @@ def dictionary():
     D.keys()
     print(D)
     print(D.keys())
+
+#ex 2
+    d =  {"Name":'ahmed', "age": 20, id:111111111 }
+    print(d)
+    d.keys()
+    print(d.keys())
+
+    print(d.get("Name"))
+
+    print(d.get("age"))
+
+    print(d.get(id))
+
 dictionary()
+
+# if 
+def iFtest():
+    num = 7
+    if num == 7:
+        print("the number 7")
+
+    temperature = int(input("enter the temperature: "))
+    if temperature > 30:
+        print("it hot outside")
+    else : 
+        print("it not hot outside")
+
+
+
+
+iFtest()
+
+
+def lol():
+    furuits = ["apple","banana","cherry"]
+    print(furuits[0])
+    print(furuits[1])
+    print(furuits[2])
+    for x in "banana":
+        print(x)
+#break (stop)
+
+    fruits = ["apple","banana","cherry"]
+    for x in fruits:
+        print(x)
+        if x =="banana":
+            break
+               #start,end,step
+    for j in range(0,11,1):
+        print(j)
+
+    for b in range(11,0,-1):
+        print(b)
+lol()
+def ooo():
+#while loop
+  
+    i = 0
+    while i < 6:
+        i += 1
+        print(i)
+ooo()
+
+def ttt():
+    i = 0
+    while i > 10:
+        i+=1
+        if i == 3:
+            continue
+    print(i)
+ttt()
