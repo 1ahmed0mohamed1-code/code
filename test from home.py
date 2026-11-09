@@ -205,4 +205,26 @@ def ttt():
             continue
     print(i)
 ttt()
+def intro():
+    a = input("entar your name : ")
+    print(a)
 
+    b = input("entar your age : ")
+    print(b)
+intro()
+def  calculate12(a, b):
+    x = a+b
+    y = a-b
+    return x,y
+sum_result, diff_result = calculate(1,8)
+print(sum_result)
+print(diff_result)
+def student_info(name, age):
+    print("Name: ", name )
+    print("AGE: ",age )
+student_info(age="24",name="aaa")
+student_info("name","age")
+def total(*num):
+    return sum(num)
+print(total(1,2))
+total()
